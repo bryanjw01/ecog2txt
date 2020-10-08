@@ -128,4 +128,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# data
 *.tfrecord
+vocab.*
+bad_electrodes.json
+
+# yaml files for current project
+*.yaml
+
+# ignore all files inside auxiliary and result folder
+/auxiliary/*
+/result/*
