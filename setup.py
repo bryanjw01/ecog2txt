@@ -15,9 +15,9 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={
         'ecog2txt': [
-            'auxiliary/block_breakdowns.json',
-            'auxiliary/example_experiment_manifest.yaml',
-            'auxiliary/vocab.mocha-timit.1806',
+            '/Volumes/ECOG2TXT/ecog2txt/ecog2txt/auxiliary/block_breakdowns.json',
+            '/Volumes/ECOG2TXT/ecog2txt/ecog2txt/auxiliary/example_experiment_manifest.yaml',
+            '/Volumes/ECOG2TXT/ecog2txt/ecog2txt/auxiliary/vocab.mocha-timit.1806',
         ]
     },
     classifiers=[
